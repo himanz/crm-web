@@ -1,5 +1,5 @@
 require_relative 'contact'
-require_relative 'contact'
+require_relative 'rolodex'
 require 'sinatra'
 
 @@rolodex = Rolodex.new
