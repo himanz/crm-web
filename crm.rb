@@ -19,6 +19,8 @@ get '/contacts/new' do
 end
 
 get '/contacts/:id' do
+	@@id = params[:id]
+	erb :id
 end
 
 get '/contacts/:id/edit' do

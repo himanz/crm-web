@@ -1,0 +1,9 @@
+<h1>Contact info for <%= @@id %></h1>
+<% @@rolodex.contacts.each do |contact| %>
+  <% if @@id.to_i == contact.id %> 
+  <p>First Name:  <%= contact.first_name %> </p>
+	<p>Last Name:  <%= contact.last_name %></p>
+	<p>Email:  <%= contact.email %></p>
+	<p>Note:  <%= contact.note %></p>
+  <% end %>
+<% end %>
