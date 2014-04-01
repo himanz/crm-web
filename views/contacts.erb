@@ -3,5 +3,9 @@
 <ul>
 <% @contacts.each do |contact| %>
   <li><%= contact.first_name %> <%= contact.last_name %></li>
+  <ul>
+  	<li>Email: <%= contact.email %></li>
+    <li>Note: <%= contact.note %></li>
+  </ul>
 <% end %>
 </ul>
