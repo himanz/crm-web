@@ -1,4 +1,5 @@
-require './contact'
+require_relative 'contact'
+require_relative 'contact'
 require 'sinatra'
 
 get '/' do
