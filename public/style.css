@@ -29,32 +29,40 @@ time, mark, audio, video {
 	background-color: rgba(62, 152, 189, 0.6);
 }
 
+.main {
+	width: 31%;
+	float: left;
+	margin-top: 2%;
+	height: 600px;
+}
+
 #main1 {
-  background-color: green;
-  width: 32%;
-  height: 200px;
-  float: left;
-  
+  background-color: #70D4B1; 
 }
 
 #main2 {
-  background-color: tomato;
-  width: 32%;
-  height: 200px;
-  float: left;
-  
+  background-color: #F7EEA9;
+  margin-left: 3.5%;
 }
 
 #main3 {
-  background-color: purple;
-  width: 32%;
-  height: 200px;
+  background-color: #F08270;
   float: right;
   
 }
 
 .foot_list {
 	clear: both;
+}
+
+#head_title {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 /*
 h1 {
