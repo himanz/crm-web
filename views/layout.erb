@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<title>CRM APP</title>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+  	<title><%= @crm_app_name %></title>
   </head>
+
+  <header>
+  	<h1>This CRM APP is great!</h1>
+    <a id="logo" href="/">
+    <img alt="html5" src="http://wp.streetwise.co/wp-content/uploads//2013/04/HTML5_Profile.jpg" /></a>
+  </header>
+
   <body>
   	<%= yield %>
   </body>
+
+  <footer>
+    <p class="copyright">Copyright &copy; 2014 Jonathan, Inc. All Rights Reserved.</p>
+  </footer>
 </html>
