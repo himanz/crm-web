@@ -72,6 +72,14 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.link {
+	display: inline;
+}
+
+.main2_table {
+	list-style-type: none;
+}
 /*
 h1 {
 	color: purple;

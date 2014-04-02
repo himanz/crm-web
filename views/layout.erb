@@ -21,15 +21,14 @@
       <div class="main" id="main2">
         <h1 class="">All Contacts</h1>
 
-        <ul>
-          <% @@rolodex.contacts.each do |contact| %>
-            <li><%= contact.first_name %> <%= contact.last_name %></li>
-            <ul>
-              <li>Email: <%= contact.email %></li>
-              <li>Note: <%= contact.note %></li>
-              <li>ID: <%= contact.id %></li>
-            </ul>
-          <% end %>
+        <ul class="main2_table">
+        <% @@rolodex.contacts.each do |contact| %>
+          <li><%= contact.first_name %> <%= contact.last_name %></li>       
+          <li>Email: <%= contact.email %></li>
+          <li>Note: <%= contact.note %></li>
+          <li>ID: <%= contact.id %></li>
+          <li>----------------------</li>
+        <% end %>
         </ul>
       </div>
 
@@ -44,9 +43,9 @@
       <div class="foot_list">
   	  	<ul>
           <a href="/contacts/new">
-  	  		<li>Add contacts</li></a>
+  	  		<li class="link">Add contacts</li></a>
   	  		<a href="/contacts">
-          <li>View contacts</li></a>
+          <li class="link">View contacts</li></a>
   	  	</ul>
       </div>
 	    <p class="copyright">Copyright &copy; 2014 Jonathan, Inc. All Rights Reserved.</p>
