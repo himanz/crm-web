@@ -24,6 +24,13 @@ get '/contacts/:id' do
 end
 
 get '/contacts/:id/edit' do
+	@@id = params[:id]
+	erb :edit_id
+end
+
+post 'contacts/:id/edit' do
+	@@id = params[:id]
+	erb :contacts
 end
 
 post '/contacts' do
