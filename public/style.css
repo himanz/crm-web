@@ -107,3 +107,9 @@ img {
 	text-align: center;
 	line-height: 50px;	
 }
+
+.main_img {
+	  padding-top: 21%;
+    max-height: 100%;
+    max-width: 100%;
+}
