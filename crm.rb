@@ -30,18 +30,12 @@ get '/contacts/:id' do
 end
 
 get '/contacts/:id/edit' do
-	@@id = params[:id]
-	erb :edit_id
-end
-
-post 'contacts/:id/edit' do
-	@id = params[:new_id]
-	@@rolodex.contacts.each do |contact|
-    if contact.id == @id.to_i
-      contact.id = @id.to_i
-    end
-  end
-	erb :contacts
+	@contact = @@rolodex.find(params[:id].to_i)
+	if @contact
+	  erb :edit_contact
+	else
+		raise Sinatra::NotFound
+	end
 end
 
 post '/contacts' do
