@@ -25,7 +25,7 @@ time, mark, audio, video {
 
 .head {
 	width: 100%;
-	height: 300px;
+	height: 220px;
 	background-color: rgba(62, 152, 189, 0.6);
 }
 
@@ -45,7 +45,8 @@ time, mark, audio, video {
 }
 
 #main1 {
-  background-color: #70D4B1; 
+  background-color: #70D4B1;
+  text-align: center;
 }
 
 #main2 {
@@ -57,6 +58,10 @@ time, mark, audio, video {
   background-color: #F08270;
   float: right;
   
+}
+
+h4 {
+	color: tomato;
 }
 
 .foot_list {
@@ -77,52 +82,28 @@ img {
 	display: inline;
 }
 
-.main2_table {
+.main_text {
 	list-style-type: none;
+	text-align: center;
 }
-/*
-h1 {
-	color: purple;
-	
-}
+
+.container {
+        width: 150px;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container input {
+        width: 100%;
+        clear: both;
+    }
 
 .copyright {
-	color: green;
-}
-
-.head {
-  width: 100%;
-	height: auto;
-	background-color: rgba(62, 152, 189, 0.6);
-	position: absolute;
-}
-
-.logo {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#head_title {
+	line-height: 40px;
 	text-align: center;
-	font-family: Impact;
 }
 
-body {
-	background-color: yellow;
-	float: left;
+.foot_link {
+	text-align: center;
+	line-height: 50px;	
 }
-
-.foot {
-	width: 98.9%;
-	height: auto;
-	background-color: #222222;
-	margin-bottom: 5px;
-	bottom:0px;
-	position: absolute;
-}
-
-.yolo {
-	float: left;
-	font-size: 24px;
-}
-*/

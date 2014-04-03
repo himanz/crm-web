@@ -4,8 +4,6 @@ require 'sinatra'
 
 @@rolodex = Rolodex.new
 
-@@rolodex.add_contact(Contact.new("Will", "Richman", "will@bitmakerlabs.com", "Co-Founder"))
-
 #routes
 get '/' do
 	@crm_app_name = "MY CRM"
